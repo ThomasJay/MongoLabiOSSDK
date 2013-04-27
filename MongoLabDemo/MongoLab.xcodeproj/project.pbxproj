@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A7B7B39172B406F00F0E6D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A7B7B38172B406F00F0E6D8 /* UIKit.framework */; };
+		7A7B7B3B172B406F00F0E6D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A7B7B3A172B406F00F0E6D8 /* Foundation.framework */; };
+		7A7B7B3D172B406F00F0E6D8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A7B7B3C172B406F00F0E6D8 /* CoreGraphics.framework */; };
+		7A7B7B43172B406F00F0E6D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A7B7B41172B406F00F0E6D8 /* InfoPlist.strings */; };
+		7A7B7B45172B406F00F0E6D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B7B44172B406F00F0E6D8 /* main.m */; };
+		7A7B7B49172B406F00F0E6D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B7B48172B406F00F0E6D8 /* AppDelegate.m */; };
+		7A7B7B4B172B406F00F0E6D8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7B7B4A172B406F00F0E6D8 /* Default.png */; };
+		7A7B7B4D172B406F00F0E6D8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7B7B4C172B406F00F0E6D8 /* Default@2x.png */; };
+		7A7B7B4F172B406F00F0E6D8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7B7B4E172B406F00F0E6D8 /* Default-568h@2x.png */; };
+		7A7B7B52172B406F00F0E6D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B7B51172B406F00F0E6D8 /* ViewController.m */; };
+		7A7B7B55172B406F00F0E6D8 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A7B7B53172B406F00F0E6D8 /* ViewController.xib */; };
+		7A7B7B61172B425300F0E6D8 /* MongoLabSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B7B60172B425300F0E6D8 /* MongoLabSDK.m */; };
+		7A7B7B70172B5DD100F0E6D8 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B7B65172B5DD100F0E6D8 /* NSObject+SBJSON.m */; };
+		7A7B7B71172B5DD100F0E6D8 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B7B67172B5DD100F0E6D8 /* NSString+SBJSON.m */; };
+		7A7B7B72172B5DD100F0E6D8 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B7B69172B5DD100F0E6D8 /* SBJSON.m */; };
+		7A7B7B73172B5DD100F0E6D8 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B7B6B172B5DD100F0E6D8 /* SBJsonBase.m */; };
+		7A7B7B74172B5DD100F0E6D8 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B7B6D172B5DD100F0E6D8 /* SBJsonParser.m */; };
+		7A7B7B75172B5DD100F0E6D8 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B7B6F172B5DD100F0E6D8 /* SBJsonWriter.m */; };
+		7A7B7B77172C494A00F0E6D8 /* mongolab_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7B7B76172C494A00F0E6D8 /* mongolab_icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7A7B7B35172B406F00F0E6D8 /* MongoLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MongoLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A7B7B38172B406F00F0E6D8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7A7B7B3A172B406F00F0E6D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7A7B7B3C172B406F00F0E6D8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7A7B7B40172B406F00F0E6D8 /* MongoLab-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MongoLab-Info.plist"; sourceTree = "<group>"; };
+		7A7B7B42172B406F00F0E6D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7A7B7B44172B406F00F0E6D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A7B7B46172B406F00F0E6D8 /* MongoLab-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MongoLab-Prefix.pch"; sourceTree = "<group>"; };
+		7A7B7B47172B406F00F0E6D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7A7B7B48172B406F00F0E6D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7A7B7B4A172B406F00F0E6D8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7A7B7B4C172B406F00F0E6D8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7A7B7B4E172B406F00F0E6D8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7A7B7B50172B406F00F0E6D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7A7B7B51172B406F00F0E6D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7A7B7B54172B406F00F0E6D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		7A7B7B5F172B425300F0E6D8 /* MongoLabSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MongoLabSDK.h; sourceTree = "<group>"; };
+		7A7B7B60172B425300F0E6D8 /* MongoLabSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MongoLabSDK.m; sourceTree = "<group>"; };
+		7A7B7B63172B5DD100F0E6D8 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		7A7B7B64172B5DD100F0E6D8 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		7A7B7B65172B5DD100F0E6D8 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		7A7B7B66172B5DD100F0E6D8 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		7A7B7B67172B5DD100F0E6D8 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		7A7B7B68172B5DD100F0E6D8 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		7A7B7B69172B5DD100F0E6D8 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		7A7B7B6A172B5DD100F0E6D8 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		7A7B7B6B172B5DD100F0E6D8 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		7A7B7B6C172B5DD100F0E6D8 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		7A7B7B6D172B5DD100F0E6D8 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		7A7B7B6E172B5DD100F0E6D8 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		7A7B7B6F172B5DD100F0E6D8 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		7A7B7B76172C494A00F0E6D8 /* mongolab_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mongolab_icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A7B7B32172B406F00F0E6D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A7B7B39172B406F00F0E6D8 /* UIKit.framework in Frameworks */,
+				7A7B7B3B172B406F00F0E6D8 /* Foundation.framework in Frameworks */,
+				7A7B7B3D172B406F00F0E6D8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A7B7B2C172B406E00F0E6D8 = {
+			isa = PBXGroup;
+			children = (
+				7A7B7B76172C494A00F0E6D8 /* mongolab_icon.png */,
+				7A7B7B3E172B406F00F0E6D8 /* MongoLab */,
+				7A7B7B37172B406F00F0E6D8 /* Frameworks */,
+				7A7B7B36172B406F00F0E6D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A7B7B36172B406F00F0E6D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A7B7B35172B406F00F0E6D8 /* MongoLab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A7B7B37172B406F00F0E6D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A7B7B38172B406F00F0E6D8 /* UIKit.framework */,
+				7A7B7B3A172B406F00F0E6D8 /* Foundation.framework */,
+				7A7B7B3C172B406F00F0E6D8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A7B7B3E172B406F00F0E6D8 /* MongoLab */ = {
+			isa = PBXGroup;
+			children = (
+				7A7B7B62172B5DD100F0E6D8 /* JSON */,
+				7A7B7B5E172B425300F0E6D8 /* MongoLabSDK */,
+				7A7B7B47172B406F00F0E6D8 /* AppDelegate.h */,
+				7A7B7B48172B406F00F0E6D8 /* AppDelegate.m */,
+				7A7B7B50172B406F00F0E6D8 /* ViewController.h */,
+				7A7B7B51172B406F00F0E6D8 /* ViewController.m */,
+				7A7B7B53172B406F00F0E6D8 /* ViewController.xib */,
+				7A7B7B3F172B406F00F0E6D8 /* Supporting Files */,
+			);
+			path = MongoLab;
+			sourceTree = "<group>";
+		};
+		7A7B7B3F172B406F00F0E6D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A7B7B40172B406F00F0E6D8 /* MongoLab-Info.plist */,
+				7A7B7B41172B406F00F0E6D8 /* InfoPlist.strings */,
+				7A7B7B44172B406F00F0E6D8 /* main.m */,
+				7A7B7B46172B406F00F0E6D8 /* MongoLab-Prefix.pch */,
+				7A7B7B4A172B406F00F0E6D8 /* Default.png */,
+				7A7B7B4C172B406F00F0E6D8 /* Default@2x.png */,
+				7A7B7B4E172B406F00F0E6D8 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A7B7B5E172B425300F0E6D8 /* MongoLabSDK */ = {
+			isa = PBXGroup;
+			children = (
+				7A7B7B5F172B425300F0E6D8 /* MongoLabSDK.h */,
+				7A7B7B60172B425300F0E6D8 /* MongoLabSDK.m */,
+			);
+			path = MongoLabSDK;
+			sourceTree = "<group>";
+		};
+		7A7B7B62172B5DD100F0E6D8 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				7A7B7B63172B5DD100F0E6D8 /* JSON.h */,
+				7A7B7B64172B5DD100F0E6D8 /* NSObject+SBJSON.h */,
+				7A7B7B65172B5DD100F0E6D8 /* NSObject+SBJSON.m */,
+				7A7B7B66172B5DD100F0E6D8 /* NSString+SBJSON.h */,
+				7A7B7B67172B5DD100F0E6D8 /* NSString+SBJSON.m */,
+				7A7B7B68172B5DD100F0E6D8 /* SBJSON.h */,
+				7A7B7B69172B5DD100F0E6D8 /* SBJSON.m */,
+				7A7B7B6A172B5DD100F0E6D8 /* SBJsonBase.h */,
+				7A7B7B6B172B5DD100F0E6D8 /* SBJsonBase.m */,
+				7A7B7B6C172B5DD100F0E6D8 /* SBJsonParser.h */,
+				7A7B7B6D172B5DD100F0E6D8 /* SBJsonParser.m */,
+				7A7B7B6E172B5DD100F0E6D8 /* SBJsonWriter.h */,
+				7A7B7B6F172B5DD100F0E6D8 /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A7B7B34172B406F00F0E6D8 /* MongoLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A7B7B58172B406F00F0E6D8 /* Build configuration list for PBXNativeTarget "MongoLab" */;
+			buildPhases = (
+				7A7B7B31172B406F00F0E6D8 /* Sources */,
+				7A7B7B32172B406F00F0E6D8 /* Frameworks */,
+				7A7B7B33172B406F00F0E6D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MongoLab;
+			productName = MongoLab;
+			productReference = 7A7B7B35172B406F00F0E6D8 /* MongoLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A7B7B2D172B406E00F0E6D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Tom Jay";
+			};
+			buildConfigurationList = 7A7B7B30172B406E00F0E6D8 /* Build configuration list for PBXProject "MongoLab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7A7B7B2C172B406E00F0E6D8;
+			productRefGroup = 7A7B7B36172B406F00F0E6D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A7B7B34172B406F00F0E6D8 /* MongoLab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A7B7B33172B406F00F0E6D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A7B7B43172B406F00F0E6D8 /* InfoPlist.strings in Resources */,
+				7A7B7B4B172B406F00F0E6D8 /* Default.png in Resources */,
+				7A7B7B4D172B406F00F0E6D8 /* Default@2x.png in Resources */,
+				7A7B7B4F172B406F00F0E6D8 /* Default-568h@2x.png in Resources */,
+				7A7B7B55172B406F00F0E6D8 /* ViewController.xib in Resources */,
+				7A7B7B77172C494A00F0E6D8 /* mongolab_icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A7B7B31172B406F00F0E6D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A7B7B45172B406F00F0E6D8 /* main.m in Sources */,
+				7A7B7B49172B406F00F0E6D8 /* AppDelegate.m in Sources */,
+				7A7B7B52172B406F00F0E6D8 /* ViewController.m in Sources */,
+				7A7B7B61172B425300F0E6D8 /* MongoLabSDK.m in Sources */,
+				7A7B7B70172B5DD100F0E6D8 /* NSObject+SBJSON.m in Sources */,
+				7A7B7B71172B5DD100F0E6D8 /* NSString+SBJSON.m in Sources */,
+				7A7B7B72172B5DD100F0E6D8 /* SBJSON.m in Sources */,
+				7A7B7B73172B5DD100F0E6D8 /* SBJsonBase.m in Sources */,
+				7A7B7B74172B5DD100F0E6D8 /* SBJsonParser.m in Sources */,
+				7A7B7B75172B5DD100F0E6D8 /* SBJsonWriter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7A7B7B41172B406F00F0E6D8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A7B7B42172B406F00F0E6D8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7A7B7B53172B406F00F0E6D8 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A7B7B54172B406F00F0E6D8 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A7B7B56172B406F00F0E6D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7A7B7B57172B406F00F0E6D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A7B7B59172B406F00F0E6D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MongoLab/MongoLab-Prefix.pch";
+				INFOPLIST_FILE = "MongoLab/MongoLab-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7A7B7B5A172B406F00F0E6D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MongoLab/MongoLab-Prefix.pch";
+				INFOPLIST_FILE = "MongoLab/MongoLab-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A7B7B30172B406E00F0E6D8 /* Build configuration list for PBXProject "MongoLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A7B7B56172B406F00F0E6D8 /* Debug */,
+				7A7B7B57172B406F00F0E6D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A7B7B58172B406F00F0E6D8 /* Build configuration list for PBXNativeTarget "MongoLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A7B7B59172B406F00F0E6D8 /* Debug */,
+				7A7B7B5A172B406F00F0E6D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A7B7B2D172B406E00F0E6D8 /* Project object */;
+}
